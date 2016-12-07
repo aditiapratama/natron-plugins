@@ -5,7 +5,7 @@
 	<Title>Natron Community Plugins</Title>
 	<Publisher>Natron Community</Publisher>
 	<ProductUrl>https://github.com/NatronVFX/natron-plugins</ProductUrl>
-	<RemoveTargetDir>true</RemoveTargetDir>
+	<RemoveTargetDir>false</RemoveTargetDir>
 	<AllowSpaceInPath>true</AllowSpaceInPath>
 	<UninstallerName>NCP-Setup</UninstallerName>
 	<InstallerWindowIcon>icon.png</InstallerWindowIcon>
@@ -13,4 +13,11 @@
 	<Watermark>natron-community-small.png</Watermark>
         <AdminTargetDir>C:/Program Files/Common Files/Natron/Plugins</AdminTargetDir>
 	<TargetDir>C:/Program Files/Common Files/Natron/Plugins</TargetDir>
+        <RemoteRepositories>
+                <Repository>
+                        <Url>http://fxarena.net/natron/plugins/packages</Url>
+                        <Enabled>1</Enabled>
+                        <DisplayName>Natron Community Repository</DisplayName>
+                </Repository>
+        </RemoteRepositories>
 </Installer>
