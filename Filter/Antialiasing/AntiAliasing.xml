@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>AntiAliasing</DisplayName>
+    <Description>Antialiasing filter based on FXAA</Description>
+    <Version>5.0</Version>
+    <ReleaseDate>@DATE@</ReleaseDate>
+    <Name>natron.community.plugins.Antialias</Name>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+</Package>

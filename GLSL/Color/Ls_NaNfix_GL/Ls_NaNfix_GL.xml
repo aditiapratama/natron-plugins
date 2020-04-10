@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>Ls_NaNfix_GL</DisplayName>
+    <Description>Fixes pixels which are stuck at NaN.</Description>
+    <Version>1.0</Version>
+    <ReleaseDate>@DATE@</ReleaseDate>
+    <Name>natron.community.plugins.Ls_NaNfix_GL</Name>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+</Package>

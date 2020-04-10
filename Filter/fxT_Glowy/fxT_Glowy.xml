@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>fxT_Glowy</DisplayName>
+    <Description>This is an alternative glow effect that mimics the feature of the same gizmo in Nuke, more info on the description.</Description>
+    <Version>1.0</Version>
+    <ReleaseDate>@DATE@</ReleaseDate>
+    <Name>natron.community.plugins.fxT_Glowy</Name>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+</Package>

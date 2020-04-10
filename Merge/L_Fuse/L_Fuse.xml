@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package>
+    <DisplayName>L_Fuse</DisplayName>
+    <Description>Fuse is a replacement for the merge(over) node.</Description>
+    <Version>2</Version>
+    <ReleaseDate>@DATE@</ReleaseDate>
+    <Name>natron.community.plugins.L_Fuse</Name>
+    <Default>script</Default>
+    <Script>installscript.qs</Script>
+</Package>
