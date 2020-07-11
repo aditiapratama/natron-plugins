@@ -2,6 +2,19 @@
 # Natron Community Plugins
 ### A collection of Natron plugins made by the community
 ## Installation
+
+### Install directly from Natron
+
+download it as a ZIP file via https://github.com/NatronGitHub/natron-plugins/archive/master.zip
+
+Extract it anywhere.
+
+open Natron
+>Edit>preference>plugins>pyplug search path>add>the exracted file location
+>>save
+
+Restart Natron.
+
 ### Upgradable Install
 
 The plugins can be installed by simply cloning the github repository at the right location, for example on Linux:
@@ -14,17 +27,6 @@ Later, the plugins can be updated at any time by pulling updates:
     cd /usr/share/Natron/Plugins/natron-plugins
     git pull
     
-### Install directly from Natron
-
-download it as a ZIP file via https://github.com/NatronGitHub/natron-plugins/archive/master.zip
-
-Extract it anywhere.
-
-open Natron
->Edit>preference>plugins>pyplug search path>add>the exracted file location
->>save
-
-Restart Natron.
  
 ### One-Time Install
 
@@ -512,6 +514,8 @@ https://github.com/NatronGitHub/natron-plugins/wiki/Guidelines-for-plugins
 - <img src='/GLSL/Source/Noise_GL/Noise_GL.png' width='24'> **[Noise_GL](/GLSL/Source/Noise_GL)** : GPU accelerated noise generator for Shadertoy.
 
 - <img src='/GLSL/Source/Rolling_fire_GL/Rolling_fire_GL.png' width='24'> **[Rolling_fire_GL](/GLSL/Source/Rolling_fire_GL)** : Creates a rolling fire effect.
+
+- <img src='/GLSL/Source//Lightning_GL/Lightning_GL.png' width='24'> **[Lightning_GL_GL](/GLSL/Source/Lightning_GL)** : Lightning effect.
 
 ### GLSL/Transform
 - <img src='/GLSL/Transform/Crok_seamless_GL/Crok_seamless_GL.png' width='24'> **[Crok_seamless_GL](/GLSL/Transform/Crok_seamless_GL)** : Creates seamless textures.
